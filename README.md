@@ -64,3 +64,10 @@ No installation is required.
 
 - Built using Replit Agent
 - Assignment for MIS2003 – Vibe Coding Tools
+
+# Build Docker image
+docker build -t task-master .
+
+# Run Docker container
+docker run -p 8080:80 task-master
+
